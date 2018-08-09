@@ -14,9 +14,9 @@ emitters {
     z: 1.0
     w: 6.123234E-17
   }
-  tile_source: "/builtins/graphics/particle_blob.tilesource"
-  animation: "anim"
-  material: "/builtins/materials/particlefx.material"
+  tile_source: "/assets/atlases/game.atlas"
+  animation: "dot"
+  material: "/lowrezjam/materials/particlefx_pixel.material"
   blend_mode: BLEND_MODE_ALPHA
   particle_orientation: PARTICLE_ORIENTATION_DEFAULT
   inherit_velocity: 0.0
@@ -213,6 +213,12 @@ emitters {
     points {
       x: 0.0
       y: 0.0
+      t_x: 1.0
+      t_y: 0.0
+    }
+    points {
+      x: 1.0
+      y: 2375.04
       t_x: 1.0
       t_y: 0.0
     }

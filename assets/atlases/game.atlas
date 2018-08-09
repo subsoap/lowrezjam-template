@@ -22,6 +22,12 @@ images {
 images {
   image: "/assets/images/Steam_Up_Round.png"
 }
+images {
+  image: "/assets/images/logo_sprite.png"
+}
+images {
+  image: "/assets/images/dot.png"
+}
 margin: 0
 extrude_borders: 1
 inner_padding: 0

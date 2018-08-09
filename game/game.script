@@ -7,7 +7,7 @@ local DOWN = hash("down")
 
 function init(self)
 	msg.post(".", "acquire_input_focus")
-	go.animate("logo", "euler.z", go.PLAYBACK_LOOP_FORWARD, 360, go.EASING_LINEAR, 5)
+	--go.animate("logo", "euler.z", go.PLAYBACK_LOOP_FORWARD, 360, go.EASING_LINEAR, 5)
 	particlefx.play("stars#stars")
 	self.actions = {}
 end

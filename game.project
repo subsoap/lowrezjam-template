@@ -14,8 +14,8 @@ repeat_delay = 0.0
 repeat_interval = 0.0
 
 [display]
-width = 640
-height = 1136
+width = 1136
+height = 640
 
 [physics]
 scale = 0.02
@@ -31,7 +31,7 @@ default_texture_mag_filter = nearest
 app_id = 
 
 [sprite]
-subpixels = 1
+subpixels = 0
 
 [label]
 subpixels = 1
