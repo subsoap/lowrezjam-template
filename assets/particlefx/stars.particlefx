@@ -17,7 +17,7 @@ emitters {
   tile_source: "/assets/atlases/game.atlas"
   animation: "dot"
   material: "/lowrezjam/materials/particlefx_pixel.material"
-  blend_mode: BLEND_MODE_ALPHA
+  blend_mode: BLEND_MODE_ADD
   particle_orientation: PARTICLE_ORIENTATION_DEFAULT
   inherit_velocity: 0.0
   max_particle_count: 128
